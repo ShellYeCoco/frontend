@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2729464 */
+  src: url('iconfont.woff2?t=1628334242935') format('woff2'),
+       url('iconfont.woff?t=1628334242935') format('woff'),
+       url('iconfont.ttf?t=1628334242935') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.shanchu:before {
+  content: "\e79d";
+}
+
+.edit:before {
+  content: "\e605";
+}
+

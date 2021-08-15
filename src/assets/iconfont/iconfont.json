@@ -1,0 +1,23 @@
+{
+  "id": "2729464",
+  "name": "coco",
+  "font_family": "iconfont",
+  "css_prefix_text": "",
+  "description": "react-coco项目",
+  "glyphs": [
+    {
+      "icon_id": "14095364",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e79d",
+      "unicode_decimal": 59293
+    },
+    {
+      "icon_id": "19475664",
+      "name": "编辑",
+      "font_class": "edit",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}

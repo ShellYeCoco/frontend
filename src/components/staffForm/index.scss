@@ -1,0 +1,34 @@
+.staff-form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    > label {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px;
+        width: 340px;
+        > span {
+            &:first-child {
+                display: inline-block;
+                width: 60px;
+            }
+            &:nth-child(2) {
+                width: 200px;
+            }
+        }
+        > input {
+            width: 200px;
+        }
+        > div {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        &:last-child {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

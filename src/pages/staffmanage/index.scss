@@ -1,0 +1,28 @@
+#staff-manage {
+    // 栏目
+    > .tab {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+        > div {
+            &.operation {
+                margin-bottom: 20px;
+            }
+            > span {
+                margin-right: 10px;
+            }
+            input {
+                width: 160px;
+                margin-right: 10px;
+            }
+            .ant-select {
+                margin-right: 10px;
+                width: 100px;
+            }
+        }
+    }
+
+    // 表格
+    .ant-btn.ant-btn-primary {
+        margin-right: 10px;
+    }
+}

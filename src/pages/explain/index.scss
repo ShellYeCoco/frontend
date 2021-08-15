@@ -1,0 +1,27 @@
+#explain {
+    box-sizing: border-box;
+    padding: 15px 300px;
+    h2, h3 {
+        font-weight: bold;
+    }
+    h2 {
+        margin: 20px 0;
+    }
+    h3 {
+        margin: 15px 0;
+    }
+    .l2 {
+        text-indent: 2rem;
+        display: inline-block;
+        line-height: 24px;
+    }
+    ul, li {
+        margin-left: 2rem;
+        list-style: disc!important;
+        li {
+            font-size: 16px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+    }
+}
