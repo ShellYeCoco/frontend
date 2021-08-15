@@ -20,6 +20,7 @@ const login = {
                     type: USER_LOGIN,
                     payload: result.data
                 })
+                return true
             }
         }
     },

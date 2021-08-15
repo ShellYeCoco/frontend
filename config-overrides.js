@@ -24,5 +24,5 @@ module.exports = override(
     }),
 
     // 打包后的文件路径配置
-    setWebpackPublicPath('/web')
+    setWebpackPublicPath(process.env.NODE_ENV === 'production' ? '/web' : '')
 )

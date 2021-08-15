@@ -35,8 +35,8 @@ class Login extends Component {
     // 登录
     submit = () => {
         const { username, password } = this.state
-        this.props.userLogin(username, password).then(() => {
-            if ( this.props.userInfo ) {
+        this.props.userLogin(username, password).then(res => {
+            if ( res ) {
                 message.success('登陆成功')
                 this.props.history.push('/home')
             }
